@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel Component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <style>
+      /* 
+        MAIN COLOR: #087f5b
+        GREY COLOR: #343a40
+        */
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Playfair Display', serif;
+        color: #343a40;
+        line-height: 1;
+      }
+
+      table{
+        width:800px;
+        margin: 100px auto;
+        /* border: 1px solid #343a40; */
+        font-size: 24px;
+        border-collapse: collapse;
+        }
+
+        th,td{
+          /* border: 1px solid #343a40; */
+          text-align: left;
+          padding: 16px 24px;
+          width: 25%;
+        }
+
+        thead th{
+          background-color: #087f5b;
+          color: #fff;
+        }
+
+        tbody tr:nth-child(odd){
+          background-color: #f8f9fa;
+        }
+
+        tbody tr:nth-child(even){
+          background-color: #dee2e6;
+        }
+
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Chair</td>
+          <th>The Laid Back</td>
+          <th>The Worker Bee</td>
+          <th>The Chair 4/2</td>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <th>Width</td>
+        <td>80cm</td>
+        <td>60cm</td>
+        <td>220cm</td>
+      </tr>
+      <tr>
+        <th>Height</td>
+        <td>80cm</td>
+        <td>60cm</td>
+        <td>220cm</td>
+      </tr>
+      <tr>
+        <th>Depth</td>
+        <td>80cm</td>
+        <td>60cm</td>
+        <td>220cm</td>
+      </tr>
+      <tr>
+        <th>Weight</td>
+        <td>80cm</td>
+        <td>60cm</td>
+        <td>220cm</td>
+      </tr>
+    </tbody>
+    </table>
+  </body>
+</html>
